@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "gini-estimation"
+version = "0.1.0"
+description = ""
+authors = ["Paulo Roberto Urio <paulourio@gmail.com>"]
+readme = "README.md"
+packages = [{include = "gini_estimation"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8, <3.10"
+scipy = "^1.8.1"
+numpy = "^1.22.4"
+altair = "^4.2.0"
+jupyter = "^1.0.0"
+jupyterlab = "^3.4.3"
+jupyterthemes = "^0.20.0"
+numba = "^0.55.2"
+sklearn = "^0.0"
+seaborn = "^0.11.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
